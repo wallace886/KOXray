@@ -11,5 +11,5 @@ jobs:
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: kenis99/king88
-          username: '${{ secrets.kenis99 }}'
-          password: '${{ secrets.J63IWCIWN4PH3UDU@YgNR7P6RHENIX3A5O4PV2 }}'
+          username: '${{ kenis99 }}'
+          password: '${{ J63IWCIWN4PH3UDU@YgNR7P6RHENIX3A5O4PV2 }}'
