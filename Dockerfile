@@ -1,9 +1,9 @@
 FROM alpine:edge
 
-ARG AUUID="9121d007-8a48-4c8b-81d2-75f60d8847cd"
+ARG AUUID="0727ec12-21ca-4395-862f-23fb973aebc3"
 ARG CADDYIndexPage="https://www.avatar.com/"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
-ARG PORT=80
+ARG PORT=8080
 
 ADD etc/Caddyfile /tmp/Caddyfile
 ADD etc/xray.json /tmp/xray.json
