@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-ARG AUUID="0727ec12-21ca-4395-862f-23fb973aebc3"
+ARG AUUID="aa3382b6-bbd5-11ec-8422-0242ac120002"
 ARG CADDYIndexPage="https://www.avatar.com/"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
 ARG PORT=8080
